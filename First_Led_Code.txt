@@ -5,9 +5,9 @@ const int LedTwoPin = 6;            // Led on Pin 6
 const int LedThreePin = 9;          // Led on Pin 9
 
 void setup() {
-                                    // Now you tell the Arduino, that he should give our LED's (Pin 3, 6, 9) Power.
+                                    
 
-    pinMode(LedOnePin, OUTPUT);
+    pinMode(LedOnePin, OUTPUT);     // Now you tell the Arduino, that he should give our LED's (Pin 3, 6, 9) Power.
     pinMode(LedTwoPin, OUTPUT);
     pinMode(LedThreePin, OUTPUT);
 }
