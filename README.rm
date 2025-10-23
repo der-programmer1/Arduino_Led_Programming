@@ -1,2 +1,31 @@
-# Arduino_Led_Programming
-Here, you can find interesting Arduino Code for LED's and interesting other stuff.
+# Arduino LED Programming
+
+This repository provides a collection of Arduino sketches focused on LED programming and related microcontroller experiments.  
+It serves as a playground for exploring LED control logic, timing patterns, and creative lighting effects using Arduino-compatible boards.
+
+## Overview
+
+The code examples in this repository demonstrate:
+- Basic LED control and digital output operations  
+- Custom blinking patterns and timing logic  
+- PWM (Pulse Width Modulation) for LED brightness control  
+- Experiments with RGB LEDs and color transitions  
+- Potential extensions for sensors and interactive lighting
+
+## Hardware Requirements
+
+- Arduino Uno (or any compatible board)  
+- One or more LEDs (standard or RGB)  
+- Current-limiting resistors (typically 220Ω–330Ω)  
+- Breadboard and jumper wires  
+
+## Software Requirements
+
+- [Arduino IDE](https://www.arduino.cc/en/software)  
+- Standard Arduino core libraries  
+
+## Usage
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/der-programmer1/Arduino_Led_Programming.git
