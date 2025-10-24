@@ -1,2 +1,35 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# -----------------------------------------------------------
+# Git Attributes for Arduino Projects
+# Ensures consistent line endings, clean diffs, and proper
+# language detection on GitHub.
+# -----------------------------------------------------------
+
+# Automatically normalize line endings (cross-platform safe)
+* text=auto eol=lf
+
+# Treat Arduino sketch files as text for proper diffs
+*.ino text diff
+
+# Explicitly mark common text-based files
+*.cpp text diff
+*.h   text diff
+*.c   text diff
+*.md  text diff
+*.txt text diff
+
+# Treat image and binary files properly (no diffs)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.zip binary
+*.exe binary
+
+# Optional: tell GitHub Linguist which files are documentation
+*.md linguist-documentation=true
+
+# Optional: ignore build artifacts and OS files from stats
+*.hex linguist-generated=true
+*.bin linguist-generated=true
+.DS_Store linguist-vendored=true
