@@ -14,10 +14,10 @@ void loop() {
     // offTime is between 0,1 and 0,19 seconds
     int offTime = random(100, 190);
 
-    analogWrite(led, brightness);
+    digitalWrite(led, brightness);
     // as delay, we take our defined onTime
     delay(onTime);
-    analogWrite(LOW);
+    digitalWrite(LOW);
     // as delay, we take our defined offTime
     delay(offTime);
 }
