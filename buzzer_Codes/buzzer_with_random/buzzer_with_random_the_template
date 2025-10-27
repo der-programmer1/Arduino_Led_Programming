@@ -1,0 +1,15 @@
+const int buzzer = ; // set Pin for buzzer. 9 for example
+int onTime = random(, ); // set min. and max. time delay
+int offTIme = random(, ); // set min. and max. time delay
+int buzzerPower = random( , ); // set min. and max. power. 1000 is 1 KHz(set between 0,1 and 1)
+
+void setup() {
+    pinMode(buzzer, OUTPUT);
+}
+
+void loop() {
+    tone(buzzer, buzzerPower);
+    delay(onTime);
+    offTone(buzzer);
+    delay(offTime);
+}
