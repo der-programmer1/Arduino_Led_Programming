@@ -11,7 +11,7 @@ void loop() {
     tone(buzzer, 300);
     // onTime for Buzzer are 0,3 seconds
     delay(300);
-    offTone(buzzer);
+    noTone(buzzer);
     // offTime for buzzer are 0,3 seconds
     delay(300);
 }

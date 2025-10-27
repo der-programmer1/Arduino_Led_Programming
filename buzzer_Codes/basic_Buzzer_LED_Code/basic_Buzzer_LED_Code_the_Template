@@ -1,5 +1,5 @@
-// define Buzzer on Pin(9, for example(... = 9;))
-const int Buzzer = ;
+// define Buzzer and led on Pin(9, for example(... = 9;))
+const int Buzzer, led = ;
 
 void setup() {
     // set Buzzer Pin as an OUTPUT(is already)
@@ -9,6 +9,6 @@ void setup() {
 void loop() {
     tone(buzzer, ); // set power in KHz. 1000 = 1KHz(make between 0,1 and 1 KHz)
     delay(); // set the onTime in seconds. 1000 = 1 second
-    offTone(buzzer);
+    noTone(buzzer);
     delay(); // set the offTime in seconds
 }

@@ -10,6 +10,6 @@ void setup() {
 void loop() {
     tone(buzzer, buzzerPower);
     delay(onTime);
-    offTone(buzzer);
+    noTone(buzzer);
     delay(offTime);
 }
